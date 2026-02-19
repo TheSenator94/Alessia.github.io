@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apri solo se sorridi</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0f0f0f;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .heart {
+      font-size: 60px;
+      animation: pulse 1.5s infinite;
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 20px;
+      letter-spacing: 1px;
+      opacity: 0.8;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="heart">🖤</div>
+  <div class="text">
+    Tranquilla.<br>
+    È solo un piccolo esperimento creativo.<br><br>
+    Però adesso mi devi un sorriso.
+  </div>
+</div>
+
+</body>
+</html>
